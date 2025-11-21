@@ -1,0 +1,53 @@
+# ISO files and downloads
+*.iso
+*.iso.part
+*.img
+*.qcow2
+
+# Log files
+*.log
+qemu_output.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Virtual machine files
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+
+# Build artifacts
+*.o
+*.so
+*.a
+build/
+dist/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# OS specific
+Thumbs.db
+desktop.ini
+
+# USB preparation outputs
+usb-files/
+output/
+
+# Test artifacts
+test-results/
+*.test
+
+# Build output directory (ISOs generated here)
+out/

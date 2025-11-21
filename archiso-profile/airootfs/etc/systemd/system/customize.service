@@ -1,0 +1,15 @@
+[Unit]
+Description=Live ISO Customization
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=!/var/lib/customize-complete
+
+[Service]
+Type=oneshot
+ExecStart=/root/.automated_script.sh
+ExecStartPost=/usr/bin/touch /var/lib/customize-complete
+StandardOutput=journal+console
+StandardError=journal+console
+
+[Install]
+WantedBy=multi-user.target

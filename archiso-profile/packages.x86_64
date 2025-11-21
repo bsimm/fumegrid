@@ -1,0 +1,70 @@
+# Base system
+base
+linux
+linux-firmware
+
+# Bootloader packages (required by archiso)
+grub
+efibootmgr
+syslinux
+mtools
+dosfstools
+
+# Network
+networkmanager
+openssh
+
+# X.org and graphics
+xorg-server
+xorg-xinit
+xorg-xrandr
+mesa
+xf86-video-vesa
+xf86-video-fbdev
+
+# Window manager - i3 (simple tiling WM)
+i3-wm
+i3status
+dmenu
+
+# Terminal emulator - alacritty (modern, GPU-accelerated)
+alacritty
+
+# Audio
+alsa-utils
+pulseaudio
+pulseaudio-alsa
+
+# DOSBox-X (will need to be built from AUR or included separately)
+# Note: dosbox-x is in AUR, we'll handle this in customize script
+
+# Development tools for DJGPP and building
+base-devel
+git
+wget
+curl
+vim
+nano
+
+# DJGPP toolchain dependencies
+gcc
+make
+bison
+flex
+texinfo
+unzip
+patch
+
+# Utilities
+htop
+tree
+man-db
+man-pages
+
+# Fonts
+ttf-dejavu
+ttf-liberation
+
+# File management
+mc
+ranger
