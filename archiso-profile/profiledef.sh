@@ -20,4 +20,5 @@ file_permissions=(
   ["/root"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
   ["/etc/systemd/system/customize.service"]="0:0:644"
+  ["/usr/local/bin/install-to-disk.sh"]="0:0:755"
 )
